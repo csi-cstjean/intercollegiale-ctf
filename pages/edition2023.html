@@ -12,17 +12,17 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a2066c4db6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../images/favicon_io/favicon-16x16.png" type="image/x-icon">
     <title>Compétition en sécurité informatique du Cégep de Saint-Jean-Sur-Richelieu</title>
 </head>
 
-<body>
+<body class="bg-dark">
     <!-- navbar -->
     <div class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./images/csi-cstjean-logo.png" alt="HashPotato" /> <!-- à réduire avant la mise en prod-->
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/favicon_io/favicon-32x32.png" alt="HashPotato" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,20 +30,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <span class="navbar-text">
-                    Compétition en sécurité informatique du Cégep de Saint-Jean-Sur-Richelieu
+                    CTF CSI-St-Jean 2023
                 </span>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="#top">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="../index.html#what-is">Qu'est-ce qu'un CTF</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html#parnters">Partenaires</a>
+                        <a class="nav-link" href="../index.html#partners">Partenaires</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#edition-2023">Edition 2023</a>
+                        <a class="nav-link" href="#edition-2023">Edition 2023 - La société secrète</a>
                     </li>
                 </ul>
             </div>
@@ -54,13 +54,13 @@
     <!-- Header -->
     <header>
         <div class="container-fluid">
-            <h1 class="lead">CTF du CSI-St-Jean</h1>
+            <h1 class="lead">Compétition Intercollegiale de Cybersécurité</h1>
             <p class="tagline">
-                Cégep de St-Jean-sur-Richelieu
+                Présenté par le club de cybersécurité du Cégep de St-Jean-sur-Richelieu
             </p>
             <p>
-                <button type="button" class="btn btn-outline-light btn-lg">Serveur Discord</button>
-                <button type="button" class="btn btn-light btn-lg">Inscription</button>
+                <button type="button" class="btn btn-outline-light btn-lg mx-2">Discord</button>
+                <button type="button" class="btn btn-light btn-lg  mx-2">Inscription</button>
             </p>
         </div>
     </header>
@@ -68,7 +68,45 @@
 
     <main class="container">
 
+        <section class="my-5 d-flex flex-column flex-md-row justify-content-center align-items-center animate-left">
+            <img src="../images/favicon_io/android-chrome-192x192.png" alt="logo-ssm">
+            <p class="text-start text-light">
+                Le Cégep de St-Jean-sur-Richelieu est le théâtre d'un événement exceptionnel : la résurgence d'une
+                société secrète centenaire. Des énigmes anciennes demandent à être dévoilées, des messages codés doivent
+                être déchiffrés, et des artefacts oubliés réapparaissent, tous liés à cette mystérieuse société datant
+                de l'époque du séminaire.
 
+                Les motivations derrière son retour restent obscures, tout comme les découvertes qui attendent d'être
+                faites.
+
+                Alors que le présent se mêle au passé, la curiosité, la perspicacité et
+                l'ingéniosité de ceux qui chercheront à percer son mystère seront mises à rude épreuve.
+            </p>
+        </section>
+
+        <section class="my-5 d-flex flex-column-reverse flex-md-row justify-content-center align-items-center animate-right">
+            <p class="text-start text-light">
+                Dans un message intrigant, la société secrète a promis le dévoilement de l'existence d'un portail
+                camouflé dans les méandres de l'Internet.
+                La date du dévoilement a été annoné: <b>Le 3 Novembre 2023</b>
+                Tel une porte entre les époques, ce portail dévoilerait un
+                accès à son héritage technologique jalousement préservé. Ce passage temporel mystérieux
+                établit un lien entre notre monde moderne et une époque où la société secrète était à l'avant-garde de
+                l'innovation technologique.
+            </p>
+            <img src="../images/favicon_io/android-chrome-192x192.png" alt="logo-ssm">
+        </section>
+
+        <section class="my-5 d-flex flex-column flex-md-row justify-content-center align-items-center  left">
+            <img src="../images/favicon_io/android-chrome-192x192.png" alt="logo-ssm">
+            <p class="text-start text-light">
+                Alors que les messages annonçant le retour de la société secrète captivent l'attention, trois questions
+                énigmatiques persistent :
+                Qui se cache derrière ces missives intrigantes ?
+                La société secrète existe-t-elle toujours, secrètement tissée dans le tissu du temps ?
+                Et enfin, pourquoi la décision a-t-elle été prise de révéler ses précieuses informations confidentielles?
+            </p>
+        </section>
     </main>
 
     <footer class="top-space">
@@ -106,9 +144,6 @@
             </div>
         </div>
     </footer>
-    <aside>
-        <a href="#top"><i class="fas fa-arrow-alt-circle-up"></i></a>
-    </aside>
 </body>
 
 </html>

@@ -1,22 +1,19 @@
-/* TODO Question 3 e) - Font externe */
 @font-face {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     src: url("../polices/Roboto-Regular-webfont.woff");
 }
-/* fin - Question 3 e) - Font externe */
 
 header {
-    /* TODO Question #2 ) - CSS - Afficher la bannière comme fond d'écran qui couvre tout le header */
-    background: #181015 url(../images/header.png) no-repeat;
-    background-size: cover;
-    /* Fin - Question #2 b) - CSS */
-    min-height: 420px;
+    background: url(../images/csi-cstjean-logo-color.jpg) no-repeat, linear-gradient(#DC3755, #F5483A);
+    background-position: left center;
+    min-height: 400px;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 75px;
+    padding-left: 300px;
     color: white;
-    font-family:Roboto, sans-serif; /* Question 3 f) - Font externe */
+    font-family:Roboto, sans-serif;
     font-weight: 300;
 }
 
@@ -48,8 +45,10 @@ header .btn {
 
 @media (max-width: 767px) {
     header {
-        min-height: 320px;
-        padding-top: 140px;
+        min-height: 250px;
+        padding-top: 50px;
+        padding-left: 0px;
+        background: linear-gradient(#DC3755, #F5483A);
     }
 
     header .lead {
@@ -60,6 +59,65 @@ header .btn {
 .h-caption {
     text-align: center;
 }
+
+
+/* Définition de l'animation */
+@keyframes apparition-left {
+    from {
+        opacity: 0; /* Commence avec une opacité de 0 */
+        transform: translateX(-30px); /* Déplace l'élément vers la gauche */
+    }
+    to {
+        opacity: 1; /* Opacité totale à la fin de l'animation */
+        transform: translateX(0); /* Position finale */
+    }
+}
+/* Définition de l'animation */
+@keyframes apparition-right {
+    from {
+        opacity: 0; /* Commence avec une opacité de 0 */
+        transform: translateX(30px); /* Déplace l'élément vers la gauche */
+    }
+    to {
+        opacity: 1; /* Opacité totale à la fin de l'animation */
+        transform: translateX(0); /* Position finale */
+    }
+}
+/* Définition de l'animation */
+@keyframes apparition-top {
+    from {
+        opacity: 0; /* Commence avec une opacité de 0 */
+        transform: translateY(30px); /* Déplace l'élément vers la gauche */
+    }
+    to {
+        opacity: 1; /* Opacité totale à la fin de l'animation */
+        transform: translateY(0); /* Position finale */
+    }
+}
+
+.animate-left{
+    animation: apparition-left 2s ease-out; /* Animation lors de l'apparition */
+}
+
+.animate-top{
+    animation: apparition-top 1s ease-out; /* Animation lors de l'apparition */
+}
+
+.animate-right{
+    animation: apparition-right 2s ease-out; /* Animation lors de l'apparition */
+}
+
+/* Style de l'image */
+.display img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style du texte */
+.display p {
+    margin-left: 20px; /* Marge à gauche pour séparer l'image et le texte */
+}
+
 
 .h-caption i {
     display: block;
