@@ -59,7 +59,7 @@ header .btn {
         background: linear-gradient(#DC3755, #F5483A);
     }
     header.secret-society{
-        min-height: 350px;
+        min-height: 400px;
         padding-top: 150px;
     }
 }
