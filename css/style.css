@@ -17,6 +17,14 @@ header {
     font-weight: 300;
 }
 
+header.secret-society{
+    background: url(../images/header.png) no-repeat, linear-gradient(#171716, #171716);
+    background-size:auto;
+    background-position: center center;
+    padding-top: 200px;
+    padding-left: 0px;
+}
+
 header.secondary {
     height: 100px;
     min-height: 100px;
@@ -50,9 +58,9 @@ header .btn {
         padding-left: 0px;
         background: linear-gradient(#DC3755, #F5483A);
     }
-
-    header .lead {
-        font-size: 34px;
+    header.secret-society{
+        min-height: 350px;
+        padding-top: 150px;
     }
 }
 
