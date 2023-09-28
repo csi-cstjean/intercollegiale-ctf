@@ -1,0 +1,4 @@
+# Bien joué, j'espère que tu es inscrit à la compétition.
+
+User-agent: *
+Disallow: /easter-egg-2f4s6k9/
