@@ -6815,7 +6815,7 @@
           c =
             ((n = b()),
             (t = e()(
-              '\n<section class="hero max-w-xl container grid">\n  <div class="hero__titre fade">\n    <h1 class="text-4xl mt-xl@sm mt-md">EASTER EGG!!</h1>\n    <p class="mt-md mb-lg">\n  Le but du jeu est de collecter le\n      plus de jetons possible en\n      <mark>90 secondes</mark>. Bouger la souris pour voir un effet parallaxe. Créé par\n      Ovior.\n    </p>\n    <button class="link-fx-4 px-md pointer mb-lg" id="play">Jouer une partie</button>\n  </div>\n  <div class="hero__image parallax anim" role="img" id="hero">\n    <div class="curtain parallax"></div>\n    <div class="bars parallax"></div>\n    <div class="player parallax"></div>\n  </div>\n</section>'
+              '\n<section class="hero max-w-xl container grid">\n  <div class="hero__titre fade">\n    <h1 class="text-4xl mt-xl@sm mt-md">ctf{s3cr3t-35st3r-3gg}</h1>\n    <p class="mt-md mb-lg">\n  Le but du jeu est de collecter le\n      plus de jetons possible en\n      <mark>90 secondes</mark>. Bouger la souris pour voir un effet parallaxe. Créé par\n      Ovior.\n    </p>\n    <button class="link-fx-4 px-md pointer mb-lg" id="play">Jouer une partie</button>\n  </div>\n  <div class="hero__image parallax anim" role="img" id="hero">\n    <div class="curtain parallax"></div>\n    <div class="bars parallax"></div>\n    <div class="player parallax"></div>\n  </div>\n</section>'
             )),
             (a = (function (r) {
               return e()(
