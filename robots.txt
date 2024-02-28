@@ -1,4 +1,1 @@
-# Bien joué, j'espère que tu es inscrit à la compétition.
-
 User-agent: *
-Disallow: /s3cr3t-35st3r-3gg/
