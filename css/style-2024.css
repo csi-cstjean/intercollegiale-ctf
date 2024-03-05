@@ -14,33 +14,33 @@ header {
     padding-left: 300px;
     color: white;
     font-family:Roboto, sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 
-header.secret-society{
-    background: url(../images/Secret_room_of_an_old_society_of_mathematicians_scie.png) no-repeat, linear-gradient(#171716, #171716);
-    background-size:auto;
-    background-position: center center;
-    padding-top: 150px;
+header.music-festival{
+    background: url(../images/2024/banner.png) no-repeat, linear-gradient(#171716, #171716);
+    background-size:cover;
+    background-position: left center;
+    padding-top: 60px;
     padding-left: 0px;
 }
 
 header.secondary {
     height: 100px;
     min-height: 100px;
-    padding-top: 0px;
 }
 
 header .lead {
-    font-size: 44px;
-    margin-bottom: 6px;
+    font-size: 4.5rem;
     color: white;
     line-height: 1.15em;
+    text-shadow:#222 1px 1px 2px;
 }
 
 header .tagline {
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 25px;
+    text-shadow:#222 1px 1px 1px;
 }
 
 header .tagline a {
