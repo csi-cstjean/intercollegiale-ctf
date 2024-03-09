@@ -1,0 +1,42 @@
+header.music-festival{
+    background: url(../images/2024/banner.png) no-repeat, linear-gradient(#171716, #171716);
+    background-size:cover;
+    background-position: center center;
+    padding-left: 0px;
+    min-height: 512px;
+    text-align: center;
+    padding-top: 180px;
+    color: white;
+    font-family:Roboto, sans-serif;
+    font-weight: 500;
+}
+
+header.secondary {
+    height: 100px;
+    min-height: 100px;
+}
+
+header .lead {
+    font-size: 4.5rem;
+    color: white;
+    line-height: 1.15em;
+    text-shadow:#222 1px 1px 2px;
+}
+
+header .tagline {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 25px;
+    text-shadow:#222 1px 1px 1px;
+}
+
+header .tagline a {
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    header {
+        min-height: 250px;
+        padding: 50px 0;
+        padding-left: 0px;
+    }
+}
