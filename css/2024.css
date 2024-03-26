@@ -1,42 +1,51 @@
-header.music-festival{
-    background: url(../images/2024/banner.png) no-repeat, linear-gradient(#171716, #171716);
-    background-size:cover;
-    background-position: center center;
-    padding-left: 0px;
-    min-height: 512px;
+.music-festival{
+    background: url(../images/2024/bg.jpg) no-repeat, linear-gradient(#171716, #171716);
+    background-size: cover;
+    background-position: top center;
+    min-height: 775px;
     text-align: center;
-    padding-top: 180px;
     color: white;
-    font-family:Roboto, sans-serif;
-    font-weight: 500;
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
-header.secondary {
-    height: 100px;
-    min-height: 100px;
-}
-
-header .lead {
-    font-size: 4.5rem;
+.music-festival .lead {
+    font-size: 10rem;
     color: white;
     line-height: 1.15em;
-    text-shadow:#222 1px 1px 2px;
 }
 
-header .tagline {
-    color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 25px;
-    text-shadow:#222 1px 1px 1px;
+.music-festival .information {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    max-width: 400px;
+    background-color: rgba(0,0,0, 0.6);
 }
 
-header .tagline a {
-    color: #fff;
-}
-
-@media (max-width: 767px) {
-    header {
-        min-height: 250px;
+@media (max-width: 991px) {
+    header.music-festival {
+        min-height: 275px;
         padding: 50px 0;
         padding-left: 0px;
+    }
+    .music-festival .lead {
+        font-size: 7rem;
+    }
+    .music-festival .information {
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 376px) {
+    header.music-festival {
+        min-height: 275px;
+    }
+    .music-festival .lead {
+        font-size: 5rem;
+    }
+    .music-festival .information {
+        max-width: 500px;
     }
 }
