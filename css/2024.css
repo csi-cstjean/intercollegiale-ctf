@@ -1,6 +1,6 @@
 .music-festival{
-    background: url(../images/2024/bg.jpg) no-repeat, linear-gradient(#171716, #171716);
-    background-size: cover;
+    background: url(../images/2024/bg.jpg) no-repeat, linear-gradient(#000000, #242424);
+    background-size: contain;
     background-position: top center;
     min-height: 775px;
     text-align: center;
@@ -20,32 +20,32 @@
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    max-width: 400px;
-    background-color: rgba(0,0,0, 0.6);
+    max-width: 550px;
+    background-color: rgba(0,0,0, 0.7);
 }
 
 @media (max-width: 991px) {
-    header.music-festival {
+    .music-festival {
         min-height: 275px;
         padding: 50px 0;
-        padding-left: 0px;
+        padding-left: 0px; 
     }
     .music-festival .lead {
         font-size: 7rem;
     }
     .music-festival .information {
-        max-width: 700px;
+        max-width: 600px;
     }
 }
 
 @media (max-width: 376px) {
-    header.music-festival {
+    .music-festival {
         min-height: 275px;
     }
     .music-festival .lead {
         font-size: 5rem;
     }
     .music-festival .information {
-        max-width: 500px;
+        max-width: 400px;
     }
 }
