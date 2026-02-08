@@ -1,0 +1,18 @@
+header.secret-society{
+    background: url(../images/2026/town.jpg) no-repeat, linear-gradient(#171716, #171716);
+    background-size:cover;
+    background-position: top center;
+    padding-top: 20px;
+    padding-left: 0px;
+    min-height: 400px;
+    text-align: center;
+    color: white;
+    font-family:Roboto, sans-serif;
+    font-weight: 300;
+}
+
+header .tagline {
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 25px;
+    text-shadow:#222 1px 1px 1px;
+}
