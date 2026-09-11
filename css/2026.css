@@ -1,16 +1,16 @@
 header.steampunk{
-    background: url(../images/2026/town.jpg) no-repeat, linear-gradient(#171716, #171716);
-    background-size:auto;
-    background-position: center right;
+    background: url(../images/2026/aethernox.png) no-repeat, linear-gradient(#171716, #171716);
+    background-size: cover;
+    background-position: center center;
     padding-top: 20px;
     padding-left: 0px;
-    min-height: 400px;
+    min-height: 600px;
     text-align: center;
     color: white;
 }
 
 header .tagline {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgb(255, 255, 255);
     margin-bottom: 5px;
     text-shadow:#222 1px 1px 1px;
     font-size: 30px;
@@ -22,7 +22,7 @@ header .tagline {
     font-style: normal;
 }
 header .lead {
-    font-size: 120px;
+    font-size: 100px;
     color: goldenrod;
-    text-shadow:#222 1px 1px 1px;
+    text-shadow:#222 5px 5px 5px;
 }
