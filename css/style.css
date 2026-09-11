@@ -204,3 +204,10 @@ aside i:hover {
 #intercollegiale-ctf a {
     color: goldenrod;
 }
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: transparent;
+    color: var(--bs-dropdown-link-color, #212529);
+    font-weight: bold;
+}
