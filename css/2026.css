@@ -1,12 +1,18 @@
 header.steampunk{
     background: url(../images/2026/aethernox.png) no-repeat, linear-gradient(#171716, #171716);
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom;
     padding-top: 20px;
     padding-left: 0px;
     min-height: 600px;
     text-align: center;
     color: white;
+}
+
+@media (max-width: 767.98px) {
+    header.steampunk {
+        min-height: 380px;
+    }
 }
 
 header .tagline {
@@ -25,4 +31,10 @@ header .lead {
     font-size: clamp(2.5rem, 10vw, 7.5rem);
     color: goldenrod;
     text-shadow:#222 5px 5px 5px;
+}
+
+.hero-logo {
+    width: 500px;
+    max-width: 70%;
+    height: auto;
 }
