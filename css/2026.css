@@ -11,7 +11,7 @@ header.steampunk{
 
 header .tagline {
     color: rgb(255, 255, 255);
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     text-shadow:#222 1px 1px 1px;
     font-size: 30px;
 }
@@ -22,7 +22,7 @@ header .tagline {
     font-style: normal;
 }
 header .lead {
-    font-size: 100px;
+    font-size: clamp(2.5rem, 10vw, 7.5rem);
     color: goldenrod;
     text-shadow:#222 5px 5px 5px;
 }
