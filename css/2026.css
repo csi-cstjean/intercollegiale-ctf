@@ -1,8 +1,8 @@
 header.steampunk{
     background: url(../images/2026/aethernox.png) no-repeat, linear-gradient(#171716, #171716);
     background-size: cover;
-    background-position: center bottom;
-    padding-top: 20px;
+    background-position: center center;
+    padding-top: 150px;
     padding-left: 0px;
     min-height: 600px;
     text-align: center;
