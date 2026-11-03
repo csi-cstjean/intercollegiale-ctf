@@ -211,3 +211,13 @@ aside i:hover {
     color: var(--bs-dropdown-link-color, #212529);
     font-weight: bold;
 }
+/* Logos des partenaires : hauteur limitée pour les grands écrans */
+#partners [class*="col-"] {
+    text-align: center;
+}
+
+#partners img {
+    max-height: 100px;
+    width: auto;
+    object-fit: contain;
+}
